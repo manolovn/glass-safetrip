@@ -2,6 +2,7 @@ package com.google.glass.safetrip;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -17,6 +18,8 @@ import com.google.glass.safetrip.util.SystemUiHider;
  * @see SystemUiHider
  */
 public class MainActivity extends Activity {
+	
+	
     /**
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
@@ -48,9 +51,11 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        
         setContentView(R.layout.activity_main);
 
+        startService(new Intent(this, GyroscopeService.class));
+        
         final View controlsView = findViewById(R.id.fullscreen_content_controls);
         final View contentView = findViewById(R.id.fullscreen_content);
 
@@ -156,4 +161,17 @@ public class MainActivity extends Activity {
         mHideHandler.removeCallbacks(mHideRunnable);
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
     }
+
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+		stopService(new Intent(this, GyroscopeService.class));
+	}
+
+
+	
+
+	
+	
+
 }
