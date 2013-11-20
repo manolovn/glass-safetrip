@@ -19,6 +19,8 @@ public class Constants {
     public static final int MAX_WIDTH = 1024;
     public static final int MAX_HEIGHT = 1024;
 
-    public static final int MAX_SPEED = 65;
+    public static final double MAX_SPEED = 65;
+
+    public static final String SPEED_UNIT = " mph";
 
 }

@@ -3,6 +3,7 @@ package com.google.glass.glass_safetrip.renderer;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.util.Log;
 import android.widget.RemoteViews;
 import com.google.android.glass.timeline.LiveCard;
@@ -69,13 +70,13 @@ public class RemoteViewRenderer {
 
 
     private void updateMph(String speed) {
-        views.setTextViewText(R.id.textView2, speed);
+        views.setTextViewText(R.id.textView2, speed + Constants.SPEED_UNIT);
 
-        int speedNumber = Integer.parseInt(speed);
+        double speedNumber = Double.parseDouble(speed);
         if (speedNumber > MAX_SPEED) {
-            views.setTextColor(R.id.textView2, android.R.color.holo_red_light);
+            views.setTextColor(R.id.textView2, Color.RED);
         } else {
-            views.setTextColor(R.id.textView2, android.R.color.holo_green_light);
+            views.setTextColor(R.id.textView2, Color.GREEN);
         }
 
         liveCard.setViews(views);
