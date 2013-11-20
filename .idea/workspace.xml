@@ -4,7 +4,7 @@
     <list default="true" id="36076fb9-5318-43e0-8a30-d55ce58d1047" name="Default" comment="" />
     <ignored path="glass.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384941531609" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384942144343" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384941402556" ignored="false" />
     <file path="/strings.xml" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384941512274" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,16 +70,16 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
+            <state line="15" column="119" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="12" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+            <state line="5" column="59" selection-start="231" selection-end="231" vertical-scroll-proportion="0.14991182">
               <folding />
             </state>
           </provider>
@@ -94,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="271" selection-end="271" vertical-scroll-proportion="0.26984128">
+            <state line="9" column="65" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -517,20 +517,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/voice_trigger.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="36" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
@@ -540,7 +526,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="271" selection-end="271" vertical-scroll-proportion="0.26984128">
+        <state line="9" column="65" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="119" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="59" selection-start="231" selection-end="231" vertical-scroll-proportion="0.14991182">
           <folding />
         </state>
       </provider>
