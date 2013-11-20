@@ -9,6 +9,7 @@ import android.view.SurfaceHolder;
 import android.widget.RemoteViews;
 import com.google.android.glass.timeline.LiveCard;
 import com.google.android.glass.timeline.TimelineManager;
+import com.google.glass.glass_safetrip.MenuActivity;
 import com.google.glass.glass_safetrip.R;
 import com.google.glass.glass_safetrip.renderer.LiveCardRenderer;
 
@@ -43,17 +44,18 @@ public class SpeedCardService extends Service {
         liveCard.enableDirectRendering(true);
 
         // create live card renderer for live card callbacks
-        if ( renderer == null ) {
-            renderer = new LiveCardRenderer();
-        }
-        liveCard.getSurfaceHolder().addCallback(renderer);
+//        if ( renderer == null ) {
+//            renderer = new LiveCardRenderer();
+//        }
+//        liveCard.getSurfaceHolder().addCallback(renderer);
 
 
         RemoteViews views = new RemoteViews(getBaseContext().getPackageName(), R.layout.main_card);
 
         liveCard.setViews(views);
 
-        liveCard.setAction(PendingIntent.getActivity(getApplicationContext(), 0, intent, 0));
+        Intent activityIntent = new Intent(getApplicationContext(), MenuActivity.class);
+        liveCard.setAction(PendingIntent.getActivity(getApplicationContext(), 0, activityIntent, 0));
 
         // finaly publish live card
         liveCard.publish();

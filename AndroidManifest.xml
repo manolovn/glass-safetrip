@@ -24,6 +24,11 @@
             <meta-data android:name="com.google.android.glass.VoiceTrigger" android:resource="@xml/voice_trigger" />
         </activity>
 
+        <!-- MENU ACTIVITY -->
+        <activity
+                android:name=".MenuActivity"
+                android:theme="@style/MenuTheme"></activity>
+
         <!-- App services -->
         <service android:name="com.google.glass.glass_safetrip.service.SpeedCardService"></service>
 
