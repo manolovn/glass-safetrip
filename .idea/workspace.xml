@@ -39,29 +39,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36076fb9-5318-43e0-8a30-d55ce58d1047" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/Accident.java" afterPath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/Accident.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/renderer/LiveCardRenderer.java" afterPath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/renderer/LiveCardRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MenuActivity.java" afterPath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MenuActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/service/SpeedCardService.java" afterPath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/service/SpeedCardService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/main.xml" afterPath="$PROJECT_DIR$/res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main_card.xml" afterPath="$PROJECT_DIR$/res/layout/main_card.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="glass.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/AndroidManifest.xml" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384950957516" ignored="false" />
     <file path="/strings.xml" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384951414396" ignored="false" />
-    <file path="/MainActivity.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384949563095" ignored="false" />
+    <file path="/MainActivity.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384955717043" ignored="false" />
     <file path="/Dummy.txt" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384950373749" ignored="false" />
     <file path="/Issue.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384942943834" ignored="false" />
     <file path="/SafeTripApi.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384943466512" ignored="false" />
     <file path="/Accident.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384942938776" ignored="false" />
     <file path="/fragment.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384943220915" ignored="false" />
     <file path="/styles.xml" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384946241624" ignored="false" />
-    <file path="/SpeedCardService.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384951634568" ignored="false" />
+    <file path="/SpeedCardService.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384955602500" ignored="false" />
     <file path="/main_card.xml" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384947412511" ignored="false" />
-    <file path="/LiveCardRenderer.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384950549392" ignored="false" />
-    <file path="/MenuActivity.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384951445661" ignored="false" />
+    <file path="/LiveCardRenderer.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384954894760" ignored="false" />
+    <file path="/MenuActivity.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384955684859" ignored="false" />
     <file path="/main.xml" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384951401810" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384951695829" ignored="false" />
+    <file path="/Constants.java" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384955729868" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,28 +124,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="34" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+            <state line="25" column="59" selection-start="770" selection-end="770" vertical-scroll-proportion="0.50880283">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestAdapter.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/retrofit-1.2.2.jar!/retrofit/RestAdapter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="117" selection-start="4699" selection-end="4699" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpeedCardService.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SpeedCardService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/service/SpeedCardService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="71" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.7640845">
+            <state line="27" column="43" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,10 +144,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="82" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MenuActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MenuActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="51" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
+            <state line="38" column="41" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,7 +185,16 @@
       <file leaf-file-name="LiveCardRenderer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/renderer/LiveCardRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="51" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.0">
+            <state line="17" column="4" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Accident.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/Accident.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="20" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,15 +209,6 @@
           </provider>
           <provider editor-type-id="android-designer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="12" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -237,22 +239,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/Image.java" />
-        <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/Accident.java" />
         <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/Issue.java" />
         <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/Emergency.java" />
         <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/SpeedTrap.java" />
         <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/service/SafeTripApi.java" />
         <option value="$PROJECT_DIR$/res/values/style.xml" />
-        <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/renderer/LiveCardRenderer.java" />
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/main_card.xml" />
         <option value="$PROJECT_DIR$/res/menu/main.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MenuActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/renderer/LiveCardRenderer.java" />
+        <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/Accident.java" />
         <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/service/SpeedCardService.java" />
+        <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MenuActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/Constants.java" />
       </list>
     </option>
   </component>
@@ -792,20 +794,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/Emergency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/SpeedTrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/Issue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="22" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
@@ -839,13 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/renderer/LiveCardRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="51" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="12" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
@@ -856,13 +837,6 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="30" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="34" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -891,21 +865,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MenuActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/renderer/LiveCardRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="51" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
+        <state line="17" column="4" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/entity/Accident.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/service/SpeedCardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="43" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/service/SpeedCardService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MenuActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="71" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.7640845">
+        <state line="38" column="41" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="82" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="59" selection-start="770" selection-end="770" vertical-scroll-proportion="0.50880283">
+          <folding />
         </state>
       </provider>
     </entry>

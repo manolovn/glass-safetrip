@@ -6,6 +6,7 @@ import android.view.SurfaceHolder;
 import android.view.View;
 import android.widget.TextView;
 import com.google.android.glass.timeline.LiveCardCallback;
+import com.google.glass.glass_safetrip.Constants;
 
 /**
  * glass
@@ -15,8 +16,7 @@ import com.google.android.glass.timeline.LiveCardCallback;
  */
 public class LiveCardRenderer implements LiveCardCallback {
 
-    // About 30 FPS.
-    private static final long FRAME_TIME_MILLIS = 33;
+    private static final long FRAME_TIME_MILLIS = Constants.FRAME_TIME_MILLIS;
 
     private SurfaceHolder mHolder;
     private boolean mPaused;

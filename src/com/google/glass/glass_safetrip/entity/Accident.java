@@ -7,4 +7,7 @@ package com.google.glass.glass_safetrip.entity;
  * @autor manolo
  */
 public class Accident extends Issue {
+
+
+
 }

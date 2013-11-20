@@ -2,6 +2,7 @@ package com.google.glass.glass_safetrip;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -14,6 +15,8 @@ import com.google.glass.glass_safetrip.service.SpeedCardService;
  * @autor manolo
  */
 public class MenuActivity extends Activity {
+
+    private static final String TAG = MenuActivity.class.getName();
 
     @Override
     public void onResume() {
@@ -30,10 +33,10 @@ public class MenuActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection.
         switch (item.getItemId()) {
             case R.id.option_stop:
                 stopService(new Intent(this, SpeedCardService.class));
+                Log.d(TAG, "closing...");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
