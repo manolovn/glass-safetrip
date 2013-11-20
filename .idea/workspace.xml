@@ -38,17 +38,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="SafeTrip" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36076fb9-5318-43e0-8a30-d55ce58d1047" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MenuActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/renderer/LiveCardRenderer.java" afterPath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/renderer/LiveCardRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/service/SpeedCardService.java" afterPath="$PROJECT_DIR$/src/com/google/glass/glass_safetrip/service/SpeedCardService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="36076fb9-5318-43e0-8a30-d55ce58d1047" name="Default" comment="" />
     <ignored path="glass.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/AndroidManifest.xml" changelist="36076fb9-5318-43e0-8a30-d55ce58d1047" time="1384950957516" ignored="false" />
@@ -146,7 +136,7 @@
       <file leaf-file-name="SpeedCardService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/service/SpeedCardService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="73" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.41549295">
+            <state line="68" column="74" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.71478873">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -905,7 +895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/google/glass/glass_safetrip/service/SpeedCardService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="73" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.41549295">
+        <state line="68" column="74" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.71478873">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
