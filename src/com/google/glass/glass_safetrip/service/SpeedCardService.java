@@ -24,6 +24,7 @@ public class SpeedCardService extends Service {
     private static final String TAG = SpeedCardService.class.getName();
 
     private LiveCardRenderer renderer;
+    private LiveCard liveCard;
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -35,32 +36,36 @@ public class SpeedCardService extends Service {
 
         Log.d(TAG, "on start command");
 
-        LiveCard liveCard;
+            if ( liveCard == null ) {
 
-        TimelineManager tm = TimelineManager.from(getBaseContext());
-        liveCard = tm.getLiveCard("1");
+            TimelineManager tm = TimelineManager.from(getBaseContext());
+            liveCard = tm.getLiveCard("1");
 
-        liveCard.setNonSilent(true);
-        liveCard.enableDirectRendering(true);
+            liveCard.setNonSilent(true);
+//            liveCard.enableDirectRendering(true);
 
-        // create live card renderer for live card callbacks
-//        if ( renderer == null ) {
-//            renderer = new LiveCardRenderer();
-//        }
-//        liveCard.getSurfaceHolder().addCallback(renderer);
+            // create live card renderer for live card callbacks
+//            if ( renderer == null ) {
+//                renderer = new LiveCardRenderer();
+//            }
+//            liveCard.getSurfaceHolder().addCallback(renderer);
 
 
-        RemoteViews views = new RemoteViews(getBaseContext().getPackageName(), R.layout.main_card);
+            RemoteViews views = new RemoteViews(getBaseContext().getPackageName(), R.layout.main_card);
 
-        liveCard.setViews(views);
+            liveCard.setViews(views);
 
-        Intent activityIntent = new Intent(getApplicationContext(), MenuActivity.class);
-        liveCard.setAction(PendingIntent.getActivity(getApplicationContext(), 0, activityIntent, 0));
+            Intent activityIntent = new Intent(getApplicationContext(), MenuActivity.class);
+            liveCard.setAction(PendingIntent.getActivity(getApplicationContext(), 0, activityIntent, 0));
 
-        // finaly publish live card
-        liveCard.publish();
+            // finaly publish live card
+            liveCard.publish();
 
-        Log.d(TAG, "live card published");
+            Log.d(TAG, "live card published");
+
+        } else {
+            Log.d(TAG, "live card already published");
+        }
 
         return Service.START_NOT_STICKY;
     }

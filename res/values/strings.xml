@@ -11,4 +11,6 @@
     <string name="option_b">Option B</string>
     <string name="option_c">Option C</string>
 
+    <string name="option_stop">Stop</string>
+
 </resources>

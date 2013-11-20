@@ -6,4 +6,6 @@
     <item android:id="@+id/option_b" android:title="@string/option_b" />
     <item android:id="@+id/option_c" android:title="@string/option_c" />
 
+    <item android:id="@+id/option_stop" android:title="@string/option_stop" />
+
 </menu>
