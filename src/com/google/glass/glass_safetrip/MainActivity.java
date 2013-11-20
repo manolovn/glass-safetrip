@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import com.google.glass.glass_safetrip.service.AccelerometerService;
+import com.google.glass.glass_safetrip.service.AlljoynRemoteService;
 import com.google.glass.glass_safetrip.service.SpeedCardService;
 
 public class MainActivity extends Activity {
@@ -26,6 +27,9 @@ public class MainActivity extends Activity {
 
         // accelerometer service
         startService(new Intent(this, AccelerometerService.class));
+
+        // alljoyn service
+        startService(new Intent(this, AlljoynRemoteService.class));
 
         Log.d(TAG, "start service intent sent");
         finish();

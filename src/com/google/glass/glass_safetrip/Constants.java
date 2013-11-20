@@ -19,4 +19,6 @@ public class Constants {
     public static final int MAX_WIDTH = 1024;
     public static final int MAX_HEIGHT = 1024;
 
+    public static final int MAX_SPEED = 65;
+
 }
