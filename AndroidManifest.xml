@@ -29,6 +29,22 @@
                 android:name=".MenuActivity"
                 android:theme="@style/MenuTheme"></activity>
 
+        <!-- ISSUE ACTIVITY -->
+        <activity
+                android:name=".IssueActivity"
+                android:label="@string/app_issues_name"
+                android:icon="@drawable/ic_launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="com.google.android.glass.VoiceTrigger" android:resource="@xml/issue_trigger" />
+        </activity>
+
         <!-- App services -->
         <service android:name=".service.SpeedCardService" />
         <service android:name=".service.AccelerometerService" />

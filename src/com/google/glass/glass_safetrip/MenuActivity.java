@@ -45,7 +45,9 @@ public class MenuActivity extends Activity {
 
     @Override
     public void onOptionsMenuClosed(Menu menu) {
+        Log.d(TAG, "menu closed");
         finish();
+        Log.d(TAG, "finishing menu activity..");
     }
 
 }

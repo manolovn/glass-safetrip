@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">glass-safetrip</string>
+    <string name="app_name">Safetrip</string>
+    <string name="app_issues_name">Safetrip issues</string>
 
-    <!-- GOOGLE GLASS VOICE TRIGGER -->
+    <!-- MAIN ACTIVITY VOICE TRIGGER -->
     <string name="glass_voice_trigger">safetrip</string>
     <string name="glass_voice_prompt">safetrip</string>
+
+    <!-- ISSUES ACTIVITY VOICE TRIGGER -->
+    <string name="issues_voice_trigger">issues</string>
+    <string name="issues_voice_prompt">Say your problem...</string>
+
+    <!-- ISSUE ACTIVITY VOICE TRIGGER -->
+    <string name="issue_voice_trigger">accident</string>
 
     <!-- MAIN LIVE CARD MENU OPTIONS -->
     <string name="option_a">Option A</string>
