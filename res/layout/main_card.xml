@@ -11,33 +11,36 @@
             android:layout_height="wrap_content"
             android:text="Speed Limit"
             android:id="@+id/textView"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:textSize="24sp"/>
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="65 mph"
             android:id="@+id/textView1"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:textSize="45sp"/>
+
+    <TextView android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@android:color/white"
+          android:layout_margin="10dp" />
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="0.00 mph"
             android:id="@+id/textView2"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:textSize="45sp"/>
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Current speed"
             android:id="@+id/textView3"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:textSize="24sp"/>
 
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button"
-            android:layout_gravity="center"/>
 </LinearLayout>

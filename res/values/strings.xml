@@ -4,7 +4,7 @@
     <string name="app_issues_name">Safetrip issues</string>
 
     <!-- MAIN ACTIVITY VOICE TRIGGER -->
-    <string name="glass_voice_trigger">safetrip</string>
+    <string name="glass_voice_trigger">start a trip</string>
     <string name="glass_voice_prompt">safetrip</string>
 
     <!-- ISSUES ACTIVITY VOICE TRIGGER -->
@@ -15,9 +15,8 @@
     <string name="issue_voice_trigger">accident</string>
 
     <!-- MAIN LIVE CARD MENU OPTIONS -->
-    <string name="option_a">Option A</string>
-    <string name="option_b">Option B</string>
-    <string name="option_c">Option C</string>
+    <string name="option_a">Report emergency</string>
+    <string name="option_b">Report hazard</string>
 
     <string name="option_stop">Stop</string>
 

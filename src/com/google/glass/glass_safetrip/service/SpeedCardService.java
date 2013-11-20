@@ -61,6 +61,7 @@ public class SpeedCardService extends Service {
 
             // create views to draw on live card
             RemoteViews views = new RemoteViews(getBaseContext().getPackageName(), R.layout.main_card);
+            views.setTextViewText(R.id.textView2, "0.01 mph");
             liveCard.setViews(views);
 
             // prepare menu
@@ -79,11 +80,6 @@ public class SpeedCardService extends Service {
         }
 
         return Service.START_STICKY;
-    }
-
-    @Override
-    public void onStart(Intent intent, int startId) {
-
     }
 
 }

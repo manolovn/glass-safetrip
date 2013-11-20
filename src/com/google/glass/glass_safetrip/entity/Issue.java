@@ -10,8 +10,11 @@ import android.location.Location;
  */
 abstract public class Issue {
 
-    Location location;
-    String comment;
-    Image attachment;
+    //public Location location;
+    public long longitude;
+    public long latitude;
+    public String comment;
+
+    public Image attachment;
 
 }
