@@ -16,14 +16,14 @@ public interface SafeTripApi {
 
     @Multipart
     @POST("/accident")
-    Accident addAccident();
+    Accident addAccident(Accident accident);
 
     @Multipart
     @POST("/emergency")
-    Emergency addEmergency();
+    Emergency addEmergency(Emergency emergency);
 
     @Multipart
     @POST("/speedtrap")
-    SpeedTrap addSpeedTrap();
+    SpeedTrap addSpeedTrap(SpeedTrap speedTrap);
 
 }

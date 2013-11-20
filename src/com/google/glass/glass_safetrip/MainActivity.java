@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import com.google.glass.glass_safetrip.api.SafeTripApi;
+import com.google.glass.glass_safetrip.service.AccelerometerService;
 import com.google.glass.glass_safetrip.service.SpeedCardService;
 import com.google.gson.Gson;
 import retrofit.RestAdapter;
@@ -33,9 +34,19 @@ public class MainActivity extends Activity {
         // Api handler
         SafeTripApi api = restAdapter.create(SafeTripApi.class);
 
-
+        // live card service
         startService(new Intent(this, SpeedCardService.class));
+
+        // accelerometer service
+        startService(new Intent(this, AccelerometerService.class));
+
         Log.d(TAG, "start service intent sent");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        stopService(new Intent(this, AccelerometerService.class));
     }
 
 }
